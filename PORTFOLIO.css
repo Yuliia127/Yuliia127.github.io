@@ -1,13 +1,13 @@
 body {
     background-image:url(https://i.pinimg.com/736x/4f/8d/78/4f8d78f0571f3a581f09837b007ac468.jpg);
     background-color: cornsilk;
-    background-repeat:round;
+    background-repeat: repeat-x;
 }
 h1 {
     color: beige;
     font-size: 4em;
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 #btn1, #btn2, #btn3, #btn4 {
@@ -16,15 +16,16 @@ h1 {
     font-size: 2em;
     font-family: serif, "Times New Roman";
     align-content: center;
-    padding: 1em 1em 1em;
+    padding: 0.5em 1em 0.5em;
     border-style: groove;
     border-color:bisque;
     border-width: thick;
-    margin-left: 33em;
+    margin-left: 24em;
 }
 .snowman {
   display: grid;
   place-items: center;
+  margin-bottom: 30em;
 }
 
 .ui.pointing.menu .active.item:after {
