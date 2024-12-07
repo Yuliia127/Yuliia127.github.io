@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project_2</title>
+    
+    
+     <link rel="stylesheet" 
+       href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    
+    <link rel="stylesheet" href="css/PORTFOLIO.css">
+    
+    
+</head>
+<body>
+    
+         
+         <br><br><br>
+         
+        <h1> <b> AUDIO Production Portfolio  </b> </h1> <br>
+    
+    
+     <div class="ui grid container">
+    
+   <nav class="ui pointing menu">
+     <a class="item"  href="index.html" > HOME </a>
+     <a class="item" href="1project.html" > SETU Arena</a>
+     <a class="active item" href="2project.html" > Peer To Peer </a> 
+     <a class="item" href="3project.html" > Smarter Travel </a> 
+     <a class="item"  href="MASHUP.html" > MASHUP </a>
+        </nav>
+         
+         
+         
+    </div> 
+    
+     <h1> <b> Peer To Peer Mentoring </b> </h1>
+    
+      
+    <div class="container">
+    <button id="btn2">Play MP3</button>
+    </div>  
+         
+    <audio  id="song2" src="audio/PtP.mp3" width="300" height="50" type="audio/mpeg"></audio>
+  <br><br>
+  
+    <script>
+    
+    let playSong2 = document.querySelector("#song2");
+    let btn2 = document.querySelector("#btn2");
+
+       btn2.addEventListener("click", () => {
+      if (playSong2.paused) {
+        playSong2.play();
+        btn2.textContent = "Pause MP3"; 
+      } else {
+        playSong2.pause();
+        btn2.textContent = "Play MP3"; 
+      }
+    });
+    </script>
+
+</body>
+</html>
+
+
+
+
+
